@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "0f8fee75-3b01-49ae-8d49-6e1af566d6a0",
+		"name": "interceptor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21589982"
+	},
+	"item": [
+		{
+			"name": "Legacy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/legacy",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"legacy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/time",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"time"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
