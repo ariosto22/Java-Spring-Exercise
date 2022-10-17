@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "fc06cc24-481d-49ec-94b6-9f102f75e0fc",
+		"name": "FirstAPI05_DIGREGOLI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21589982"
+	},
+	"item": [
+		{
+			"name": "GET Method",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/cars?id=847&modelName=Audi&price=13999",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cars"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "847"
+						},
+						{
+							"key": "modelName",
+							"value": "Audi"
+						},
+						{
+							"key": "price",
+							"value": "13999"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Method for create a new car",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"847\",\r\n    \"modelName\":\"Audi\",\r\n    \"price\":\"16500\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/cars",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Method for create a new car (wrong payload)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"847\",\r\n    \"modelName\":\"Audi\",\r\n    \"price\":\"13399\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/cars",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cars"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
