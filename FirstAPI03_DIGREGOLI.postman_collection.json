@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "7d055fb7-9656-43bf-9b75-255feba3831d",
+		"name": "FirstAPI03_DIGREGOLI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21589982"
+	},
+	"item": [
+		{
+			"name": "GET Method for returns 2 concatenated string params",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/strings/s2?str1=Hello&str2=World",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"strings",
+						"s2"
+					],
+					"query": [
+						{
+							"key": "str1",
+							"value": "Hello"
+						},
+						{
+							"key": "str2",
+							"value": "World"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Method for returns 1 concatenated string param",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/strings/s1?str1=Hello",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"strings",
+						"s1"
+					],
+					"query": [
+						{
+							"key": "str1",
+							"value": "Hello"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
