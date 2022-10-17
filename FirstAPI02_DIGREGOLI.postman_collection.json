@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "26f56fa2-1a04-469d-80d6-6aec3db919d2",
+		"name": "FirstAPI02_DIGREGOLI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21589982"
+	},
+	"item": [
+		{
+			"name": "GET Method for calculate the factorial",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/factorial/10",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"factorial",
+						"10"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
